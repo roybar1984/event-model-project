@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.87a56bb0.css",
-    "main.js": "/static/js/main.e5a9a195.js",
-    "static/js/787.3e21b39e.chunk.js": "/static/js/787.3e21b39e.chunk.js",
-    "static/media/Signika-Regular.ttf": "/static/media/Signika-Regular.89dc325af2bc87a445dc.ttf",
-    "static/media/IBMPlexMono-Medium.ttf": "/static/media/IBMPlexMono-Medium.92630f6450efcebeffb0.ttf",
-    "static/media/heart.svg": "/static/media/heart.fc2d4a23afdb71710947.svg",
-    "index.html": "/index.html",
-    "main.87a56bb0.css.map": "/static/css/main.87a56bb0.css.map",
-    "main.e5a9a195.js.map": "/static/js/main.e5a9a195.js.map",
-    "787.3e21b39e.chunk.js.map": "/static/js/787.3e21b39e.chunk.js.map"
+    "main.css": "/roybar1984.github.io-event-model-project/static/css/main.ac14f536.css",
+    "main.js": "/roybar1984.github.io-event-model-project/static/js/main.3292f2f3.js",
+    "static/js/787.3e21b39e.chunk.js": "/roybar1984.github.io-event-model-project/static/js/787.3e21b39e.chunk.js",
+    "static/media/Signika-Regular.ttf": "/roybar1984.github.io-event-model-project/static/media/Signika-Regular.89dc325af2bc87a445dc.ttf",
+    "static/media/IBMPlexMono-Medium.ttf": "/roybar1984.github.io-event-model-project/static/media/IBMPlexMono-Medium.92630f6450efcebeffb0.ttf",
+    "static/media/heart.svg": "/roybar1984.github.io-event-model-project/static/media/heart.fc2d4a23afdb71710947.svg",
+    "index.html": "/roybar1984.github.io-event-model-project/index.html",
+    "main.ac14f536.css.map": "/roybar1984.github.io-event-model-project/static/css/main.ac14f536.css.map",
+    "main.3292f2f3.js.map": "/roybar1984.github.io-event-model-project/static/js/main.3292f2f3.js.map",
+    "787.3e21b39e.chunk.js.map": "/roybar1984.github.io-event-model-project/static/js/787.3e21b39e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87a56bb0.css",
-    "static/js/main.e5a9a195.js"
+    "static/css/main.ac14f536.css",
+    "static/js/main.3292f2f3.js"
   ]
 }
