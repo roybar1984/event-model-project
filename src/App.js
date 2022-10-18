@@ -47,7 +47,7 @@ function App(props) {
           <Route path="/">
             <FirstPage setCurrPage={setCurrPage} />
           </Route>
-          <Route path="/opening-examples">
+          <Route exact path="/opening-examples">
             <PageTransition timeout={1000} classNames="page-transition">
               <OpeningExamplesContainer Data={Data} page={1} />
             </PageTransition>
