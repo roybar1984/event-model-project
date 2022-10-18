@@ -40,12 +40,11 @@ function App(props) {
     });
   }, [currPage]);
 
-
   return (
     <div ref={appRef} className="App">
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <FirstPage setCurrPage={setCurrPage} />
           </Route>
           <Route path="/opening-examples">
@@ -286,7 +285,12 @@ function App(props) {
             />
           </Route>
           <Route exact path="/finish">
-            <LastPage Data={Data} page={22} setCurrPage={setCurrPage} setIsFirstRound={setIsFirstRound} />
+            <LastPage
+              Data={Data}
+              page={22}
+              setCurrPage={setCurrPage}
+              setIsFirstRound={setIsFirstRound}
+            />
           </Route>
           <Route exact path="/about">
             <AboutPage setIsFirstRound={setIsFirstRound} />
