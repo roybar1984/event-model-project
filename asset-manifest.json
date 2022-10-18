@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/event-model-project/static/css/main.91e62ccb.css",
-    "main.js": "/event-model-project/static/js/main.65c62c84.js",
+    "main.js": "/event-model-project/static/js/main.5ab6a63d.js",
     "static/js/787.3e21b39e.chunk.js": "/event-model-project/static/js/787.3e21b39e.chunk.js",
     "static/media/Signika-Regular.ttf": "/event-model-project/static/media/Signika-Regular.89dc325af2bc87a445dc.ttf",
     "static/media/IBMPlexMono-Medium.ttf": "/event-model-project/static/media/IBMPlexMono-Medium.92630f6450efcebeffb0.ttf",
     "static/media/heart.svg": "/event-model-project/static/media/heart.fc2d4a23afdb71710947.svg",
     "index.html": "/event-model-project/index.html",
     "main.91e62ccb.css.map": "/event-model-project/static/css/main.91e62ccb.css.map",
-    "main.65c62c84.js.map": "/event-model-project/static/js/main.65c62c84.js.map",
+    "main.5ab6a63d.js.map": "/event-model-project/static/js/main.5ab6a63d.js.map",
     "787.3e21b39e.chunk.js.map": "/event-model-project/static/js/787.3e21b39e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91e62ccb.css",
-    "static/js/main.65c62c84.js"
+    "static/js/main.5ab6a63d.js"
   ]
 }
