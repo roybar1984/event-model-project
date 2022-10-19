@@ -1,7 +1,8 @@
 import "./FirstPage.css";
 
 import React, { useState, useEffect, useRef } from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import MeaLogo from "./../meaLogo/MeaLogo";
 import ReactDOM from "react-dom";
 import { Markup } from "interweave";
@@ -10,7 +11,8 @@ import { gsap } from "gsap";
 gsap.registerPlugin(Draggable);
 
 function FirstPage(props) {
-  const history = useHistory();
+  // const history = useHistory();
+  const navigate = useNavigate();
   const dropRef = useRef(null);
   const dragRef = useRef(null);
   const containerRef = useRef(null);
@@ -21,14 +23,14 @@ function FirstPage(props) {
       type: "x",
       inertia: true,
       bounds: containerRef.current,
-      onDrag: function () {
+      onDrag: function() {
         if (this.hitTest(dropRef.current, "50%")) {
           dragOver();
         } else {
           dragExit();
         }
       },
-      onDragEnd: function () {
+      onDragEnd: function() {
         if (this.hitTest(dropRef.current, "100%")) {
           drop();
         }
@@ -45,7 +47,8 @@ function FirstPage(props) {
   }
 
   function drop(event) {
-    setTimeout(history.push("./opening-examples"), 1000);
+    // setTimeout(history.push("./opening-examples"), 1000);
+    setTimeout(navigate("./opening-examples"), 1000);
   }
 
   return (
@@ -159,7 +162,7 @@ function FirstPage(props) {
                   />
                   <circle
                     ref={dropRef}
-                    className="drop-area"
+                    // className="drop-area"
                     className="drop-ring-circle"
                     cx="129.47"
                     cy="129.09"

@@ -1,6 +1,7 @@
 import "./TextWithCodeBlocks.css";
 import { Markup } from "interweave";
 import BlackCodeBlock from "./../blackCodeBlock/BlackCodeBlock";
+import React from "react";
 
 function TextWithCodeBlocks(props) {
   return (

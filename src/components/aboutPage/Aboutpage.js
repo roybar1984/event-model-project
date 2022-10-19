@@ -4,18 +4,18 @@ import MeaLogo from "./../../components/meaLogo/MeaLogo";
 import { Markup } from "interweave";
 import Btn from "./../../components/btn/Btn";
 import { gsap } from "gsap";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function AboutPage(props) {
-  const history = useHistory();
+  const navigate = useNavigate();
   const rhumbRef1 = useRef(null);
   const rhumbRef2 = useRef(null);
   const rhumbRef3 = useRef(null);
   const rhumbRef4 = useRef(null);
-  
+
   function handleStartOver(event) {
     props.setIsFirstRound(false);
-    history.push("/");
+    navigate("/");
   }
 
   return (
@@ -28,8 +28,20 @@ function AboutPage(props) {
             <svg
               id="1"
               ref={rhumbRef1}
-              onMouseEnter={()=>{gsap.to(rhumbRef1.current,{y:"-5", ease:"spin", duration:1});}}
-              onMouseLeave={()=>{gsap.to(rhumbRef1.current,{y:"5", ease:"spin", duration:1});}}
+              onMouseEnter={() => {
+                gsap.to(rhumbRef1.current, {
+                  y: "-5",
+                  ease: "spin",
+                  duration: 1,
+                });
+              }}
+              onMouseLeave={() => {
+                gsap.to(rhumbRef1.current, {
+                  y: "5",
+                  ease: "spin",
+                  duration: 1,
+                });
+              }}
               className={`about-page-rhombus rhombus1`}
               viewBox="0 0 45.29 45.29"
             >
@@ -67,10 +79,22 @@ function AboutPage(props) {
           </div>
           <div className="single-rhombus-container">
             <svg
-                ref={rhumbRef2}
-                id="2"
-                onMouseEnter={()=>{gsap.to(rhumbRef2.current,{y:"-5", ease:"spin", duration:1});}}
-                onMouseLeave={()=>{gsap.to(rhumbRef2.current,{y:"5", ease:"spin", duration:1});}}
+              ref={rhumbRef2}
+              id="2"
+              onMouseEnter={() => {
+                gsap.to(rhumbRef2.current, {
+                  y: "-5",
+                  ease: "spin",
+                  duration: 1,
+                });
+              }}
+              onMouseLeave={() => {
+                gsap.to(rhumbRef2.current, {
+                  y: "5",
+                  ease: "spin",
+                  duration: 1,
+                });
+              }}
               className="about-page-rhombus rhombus2"
               viewBox="0 0 45.29 45.29"
             >
@@ -106,10 +130,22 @@ function AboutPage(props) {
           </div>
           <div className="single-rhombus-container">
             <svg
-                ref={rhumbRef3}
-                id="3"
-                onMouseEnter={()=>{gsap.to(rhumbRef3.current,{y:"-5", ease:"spin", duration:1});}}
-                onMouseLeave={()=>{gsap.to(rhumbRef3.current,{y:"5", ease:"spin", duration:1});}}
+              ref={rhumbRef3}
+              id="3"
+              onMouseEnter={() => {
+                gsap.to(rhumbRef3.current, {
+                  y: "-5",
+                  ease: "spin",
+                  duration: 1,
+                });
+              }}
+              onMouseLeave={() => {
+                gsap.to(rhumbRef3.current, {
+                  y: "5",
+                  ease: "spin",
+                  duration: 1,
+                });
+              }}
               className="about-page-rhombus rhombus3"
               viewBox="0 0 45.29 45.29"
             >
@@ -145,10 +181,22 @@ function AboutPage(props) {
           </div>
           <div className="single-rhombus-container">
             <svg
-                ref={rhumbRef4}
-                id="4"
-                onMouseEnter={()=>{gsap.to(rhumbRef4.current,{y:"-5", ease:"spin", duration:1});}}
-                onMouseLeave={()=>{gsap.to(rhumbRef4.current,{y:"5", ease:"spin", duration:1});}}
+              ref={rhumbRef4}
+              id="4"
+              onMouseEnter={() => {
+                gsap.to(rhumbRef4.current, {
+                  y: "-5",
+                  ease: "spin",
+                  duration: 1,
+                });
+              }}
+              onMouseLeave={() => {
+                gsap.to(rhumbRef4.current, {
+                  y: "5",
+                  ease: "spin",
+                  duration: 1,
+                });
+              }}
               className="about-page-rhombus rhombus4"
               viewBox="0 0 45.29 45.29"
             >
@@ -187,7 +235,11 @@ function AboutPage(props) {
         <div className="about-us-text">
           <Markup content='<span class="colored-text"> צוות </span><span class="colored-text listener-colored-text-green">מ</span><span class="colored-text listener-colored-text-pink">א</span><span class="colored-text listener-colored-text-green">"</span><span class="colored-text listener-colored-text-purple">ה </span> - <span class="colored-text listener-colored-text-green">מ</span>ולטימדיה ו<span class="colored-text listener-colored-text-pink">א</span>ינטרקטיביות ב<span class="colored-text listener-colored-text-purple">ה</span>דרכה.<br>הצוות פועל ליצירת חווית למידה חדשנית <span class="colored-text">שבמרכזה עומד הלומד</span><br><br>הקסם קורה בזכות אנשי הצוות שלא מתפשרים על איכות התוצר <br> והמולטימדיה שמביאה איתה <span class="colored-text">אין ספור הזדמנויות</span>.' />
         </div>
-        <Btn classForStartOver="start-over-btn" handleClick={handleStartOver} buttonText="בחזרה ללומדה" />
+        <Btn
+          classForStartOver="start-over-btn"
+          handleClick={handleStartOver}
+          buttonText="בחזרה ללומדה"
+        />
       </div>
     </div>
   );

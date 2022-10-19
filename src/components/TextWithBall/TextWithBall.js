@@ -63,12 +63,10 @@ function TextWithBall(props) {
       }
     }
     return () => {
-      {
-        if (props.isComparison) {
-          props.setIsFirstComparisonAnimationRound(false);
-        } else {
-          props.setIsFirstAnimationRound(false);
-        }
+      if (props.isComparison) {
+        props.setIsFirstComparisonAnimationRound(false);
+      } else {
+        props.setIsFirstAnimationRound(false);
       }
     };
   }, []);
@@ -165,13 +163,10 @@ function TextWithBall(props) {
       <div>
         <hr
           ref={ballLineRef}
-          className={`delay-ball-part ball-line ${
-            props.isComparison && "comparison-ball-line"
-          } ${
-            (!props.isFirstAnimationRound ||
-              !props.isFirstComparisonAnimationRound) &&
-            "display-after-animation"
-          }`}
+          className={`delay-ball-part ball-line ${props.isComparison &&
+            "comparison-ball-line"} ${(!props.isFirstAnimationRound ||
+            !props.isFirstComparisonAnimationRound) &&
+            "display-after-animation"}`}
         />
         <svg
           ref={smallBallRef}

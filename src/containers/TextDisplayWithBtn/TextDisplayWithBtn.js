@@ -4,11 +4,13 @@ import { Markup } from "interweave";
 import PlusBtn from "../../components/PlusBtn/PlusBtn";
 import Btn from "./../../components/btn/Btn";
 import "./TextDisplayWithBtn.css";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import NextAndBackButtons from "./../../components/nextAndBackButtons/NextAndBackButtons";
 
 function TextDisplayWithBtn(props) {
-  let history = useHistory();
+  // let history = useHistory();
+  const navigate = useNavigate();
   const [clickNum, setClickNum] = useState(0);
   const [linesToShow, setLinesToShow] = useState([]);
   const [isPlusBtnOver, setIsPlusBtnOver] = useState(false);
@@ -69,7 +71,8 @@ function TextDisplayWithBtn(props) {
   }
 
   function handleClickNext(event) {
-    history.push("/event-types");
+    navigate("/event-types");
+    // history.push("/event-types");
   }
 
   return (
@@ -78,9 +81,8 @@ function TextDisplayWithBtn(props) {
         <h1 className="title title-9">{props.Data[props.page].title}</h1>
       )}
       <div
-        className={`text-btn-container ${
-          isPlusBtnOver && "text-btn-container-hover"
-        }`}
+        className={`text-btn-container ${isPlusBtnOver &&
+          "text-btn-container-hover"}`}
       >
         <div className="text-container">
           {linesToShow.map((line, index) => {

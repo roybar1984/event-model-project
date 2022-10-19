@@ -1,21 +1,21 @@
 import React, {useEffect} from "react";
 import "./LastPage.css";
 import { Markup } from "interweave";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Btn from "./../../components/btn/Btn";
 
 function LastPage(props) {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   useEffect(()=>{props.setCurrPage(4)},[props.page])
 
   function handleAbout(event) {
-    history.push(`/about`);
+    navigate(`/about`);
   }
   
   function handleStartOver(event) {
     props.setIsFirstRound(false);
-    history.push(`/`);
+    navigate(`/`);
   }
 
   return (
