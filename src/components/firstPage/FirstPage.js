@@ -18,6 +18,7 @@ function FirstPage(props) {
   const containerRef = useRef(null);
 
   useEffect(() => {
+    console.log("inside first page");
     props.setCurrPage(0);
     Draggable.create(dragRef.current, {
       type: "x",
