@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "78ba9791ce9e77ddb9f5",
+    "revision": "9044fce017e5525acc28",
     "url": "/event-model-project/static/css/main.3ad1a8e2.chunk.css"
   },
   {
-    "revision": "78ba9791ce9e77ddb9f5",
-    "url": "/event-model-project/static/js/main.78ba9791.chunk.js"
+    "revision": "9044fce017e5525acc28",
+    "url": "/event-model-project/static/js/main.9044fce0.chunk.js"
   },
   {
     "revision": "61cf7f42ded3fcffc961",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/event-model-project/static/media/Signika-Regular.1b24ac57.ttf"
   },
   {
-    "revision": "497ba1f23aa8d4adebe07876df649cfc",
+    "revision": "3c64e5d13c5818be01c43d8633a39f51",
     "url": "/event-model-project/index.html"
   }
 ];
