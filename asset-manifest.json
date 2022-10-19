@@ -1,18 +1,17 @@
 {
-  "files": {
-    "main.css": "/event-model-project/static/css/main.91e62ccb.css",
-    "main.js": "/event-model-project/static/js/main.65c62c84.js",
-    "static/js/787.3e21b39e.chunk.js": "/event-model-project/static/js/787.3e21b39e.chunk.js",
-    "static/media/Signika-Regular.ttf": "/event-model-project/static/media/Signika-Regular.89dc325af2bc87a445dc.ttf",
-    "static/media/IBMPlexMono-Medium.ttf": "/event-model-project/static/media/IBMPlexMono-Medium.92630f6450efcebeffb0.ttf",
-    "static/media/heart.svg": "/event-model-project/static/media/heart.fc2d4a23afdb71710947.svg",
-    "index.html": "/event-model-project/index.html",
-    "main.91e62ccb.css.map": "/event-model-project/static/css/main.91e62ccb.css.map",
-    "main.65c62c84.js.map": "/event-model-project/static/js/main.65c62c84.js.map",
-    "787.3e21b39e.chunk.js.map": "/event-model-project/static/js/787.3e21b39e.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.91e62ccb.css",
-    "static/js/main.65c62c84.js"
-  ]
+  "main.css": "/event-model-project/static/css/main.3ad1a8e2.chunk.css",
+  "main.js": "/event-model-project/static/js/main.78ba9791.chunk.js",
+  "main.js.map": "/event-model-project/static/js/main.78ba9791.chunk.js.map",
+  "static/js/1.61cf7f42.chunk.js": "/event-model-project/static/js/1.61cf7f42.chunk.js",
+  "static/js/1.61cf7f42.chunk.js.map": "/event-model-project/static/js/1.61cf7f42.chunk.js.map",
+  "static/js/2.13f8a102.chunk.js": "/event-model-project/static/js/2.13f8a102.chunk.js",
+  "static/js/2.13f8a102.chunk.js.map": "/event-model-project/static/js/2.13f8a102.chunk.js.map",
+  "runtime~main.js": "/event-model-project/static/js/runtime~main.0e833e3b.js",
+  "runtime~main.js.map": "/event-model-project/static/js/runtime~main.0e833e3b.js.map",
+  "static/media/App.css": "/event-model-project/static/media/IBMPlexMono-Medium.1f86f6c4.ttf",
+  "static/media/EventListenerExample.css": "/event-model-project/static/media/Signika-Regular.1b24ac57.ttf",
+  "static/css/main.3ad1a8e2.chunk.css.map": "/event-model-project/static/css/main.3ad1a8e2.chunk.css.map",
+  "index.html": "/event-model-project/index.html",
+  "precache-manifest.182446de36770305517d86a1eabc564b.js": "/event-model-project/precache-manifest.182446de36770305517d86a1eabc564b.js",
+  "service-worker.js": "/event-model-project/service-worker.js"
 }
