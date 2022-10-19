@@ -48,6 +48,7 @@ function App(props) {
     <div ref={appRef} className="App">
       <Routes>
         <Route
+          exact
           path="/"
           element={<FirstPage setCurrPage={setCurrPage} />}
         ></Route>
